@@ -13,8 +13,7 @@ tilt_angle = 0.001  # Mirror tilt angle for straight fringes in radians
 
 # Fringe Pattern
 def generate_fringe_pattern(mirror_displacement, tilt=True):
-    
-    # Calculate Optical Path Difference (OPD)
+    # Optical Path Difference
     OPD = 2 * mirror_displacement  
     
     # Phase difference 
